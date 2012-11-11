@@ -1,0 +1,11 @@
+--- src/Makefile.am	2012-01-02 21:03:25.000000000 +0100
++++ src/Makefile.am.oden	2012-04-16 08:31:33.473868970 +0200
+@@ -27,7 +27,7 @@
+ libnetfilter_log_la_LDFLAGS = -Wc,-nostartfiles -lnfnetlink	\
+ 			      -version-info $(LIBVERSION)
+ libnetfilter_log_la_SOURCES = libnetfilter_log.c 
+-libnetfilter_log_la_LIBADD  = ${LIBNFNETLINK_LIBS}
++libnetfilter_log_la_LIBADD  = $(LIBNFNETLINK_LIBS)
+ 
+ libnetfilter_log_libipulog_la_LDFLAGS = -Wc,-nostartfiles	\
+ 					-version-info 1:0:0
