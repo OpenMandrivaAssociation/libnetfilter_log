@@ -5,7 +5,7 @@
 Summary:	Netfilter userspace packet logging library
 Name:		libnetfilter_log
 Version:	1.0.1
-Release:	2
+Release:	1
 Group:		System/Libraries
 License:	GPL
 URL:		http://www.netfilter.org/projects/libnetfilter_log/index.html
@@ -65,3 +65,13 @@ rm -f %{buildroot}%{_libdir}/*.la
 %{_libdir}/*.so
 %{_libdir}/pkgconfig/libnetfilter_log.pc
 
+
+
+%changelog
+* Mon Apr 16 2012 Oden Eriksson <oeriksson@mandriva.com> 1.0.1-1
++ Revision: 791245
+- import libnetfilter_log
+
+
+* Mon Apr 16 2012 Oden Eriksson <oeriksson@mandriva.com> 1.0.1-1
+- initial Mandriva package
