@@ -5,7 +5,7 @@
 Summary:	Netfilter userspace packet logging library
 Name:		libnetfilter_log
 Version:	1.0.1
-Release:	10
+Release:	11
 Group:		System/Libraries
 License:	GPL
 URL:		http://www.netfilter.org/projects/libnetfilter_log/index.html
