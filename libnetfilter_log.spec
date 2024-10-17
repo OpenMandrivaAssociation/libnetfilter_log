@@ -8,7 +8,7 @@ Version:	1.0.1
 Release:	12
 Group:		System/Libraries
 License:	GPL
-URL:		http://www.netfilter.org/projects/libnetfilter_log/index.html
+URL:		https://www.netfilter.org/projects/libnetfilter_log/index.html
 Source0:	http://www.netfilter.org/projects/libnetfilter_log/files/libnetfilter_log-%{version}.tar.bz2
 Source1:	http://www.netfilter.org/projects/libnetfilter_log/files/libnetfilter_log-%{version}.tar.bz2.sig
 Patch0:		libnetfilter_log-1.0.1-linkage_fix.diff
